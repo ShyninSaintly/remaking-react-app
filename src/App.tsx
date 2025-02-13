@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useState} from 'react';
 import Card, {CardVariant} from "./composents/Card.tsx";
 import UserList from "./composents/UserList.tsx";
-import {IUser} from "./types/types";
+import {IUser} from "./types/types.tsx";
 
 const App = () => {
     const [users,setUsers] = useState<IUser>([]);

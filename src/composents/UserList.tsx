@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {IUser} from "../types/types";
+import {IUser} from "../types/types.tsx";
 import UserItem from "./UserItem.tsx";
 interface  UserListProps{
     users: IUser[];
